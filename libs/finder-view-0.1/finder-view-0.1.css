@@ -1,0 +1,29 @@
+body {
+	padding-top: 70px;
+}
+
+div.total-panel {
+	white-space: nowrap;
+	text-align: center;
+}
+
+div.item-panel {
+	display: inline-block;
+	width: 19%;
+	height: 80%;
+	border-right: 1px solid black;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+tr.folder-clicked {
+	background: #cccccc;
+}
+
+tr.items {
+	white-space: pre-wrap;      /* CSS3 */   
+	white-space: -moz-pre-wrap; /* Firefox */    
+	white-space: -pre-wrap;     /* Opera <7 */   
+	white-space: -o-pre-wrap;   /* Opera 7 */    
+	word-wrap: normal|break-word;
+}
